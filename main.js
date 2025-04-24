@@ -13,9 +13,5 @@ function setIframe() {
     
     let url = urlParams.get('src');
     url = atob(url);
-    
-    const urlBuilt = new URL(url);
-
-    document.title = urlBuilt.hostname;
     document.getElementById("iframe").src = url;
 }
