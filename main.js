@@ -15,3 +15,7 @@ function setIframe() {
     url = atob(url);
     document.getElementById("iframe").src = url;
 }
+
+function panic() {
+    location.href = "https://drive.google.com/drive/"
+}
